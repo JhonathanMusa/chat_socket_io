@@ -1,0 +1,27 @@
+{
+  "name": "chat_socket_io",
+  "version": "1.0.0",
+  "description": "Simple chat with socket.io, express and node",
+  "main": "index.js",
+  "scripts": {
+	  "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonathanMusa/chat_socket_io.git"
+  },
+  "author": "Jhonathan Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonathanMusa/chat_socket_io/issues"
+  },
+  "homepage": "https://github.com/JhonathanMusa/chat_socket_io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

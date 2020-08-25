@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Private chat room</h1>
+
+      <p>Welcome to the chat room</p>
+
+      <div id="messages"></div>
+
+      <form onsubmit="return addMessage(this)">
+        <p>
+          <input id="nickname" type="text" placeholder="Nick: " />
+        </p>
+        <p>
+          <textarea id="text" placeholder="Message..."></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Send" />
+          <input type="reset" value="Reset" />
+        </p>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
