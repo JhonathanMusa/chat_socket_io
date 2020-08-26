@@ -24,7 +24,32 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ccc;
-  background: rgb(116, 197, 147);
+  /* background: rgb(116, 197, 147); */
+  background: linear-gradient(to left, rgb(119, 0, 255), rgb(0, 238, 255));
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#text,
+#nickname {
+  border-radius: 5px;
+  border: 2px solid rgb(173, 172, 172);
+}
+
+#send_btn {
+  background: #333;
+  color: #eee;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  font-weight: bold;
+}
+
+#send_btn:hover {
+  background: #eee;
+  color: #000000;
+  font-weight: bold;
 }

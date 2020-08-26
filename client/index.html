@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="/socket.io/socket.io.js"></script>
   </head>
   <body>
     <div id="container">
-      <h1>Private chat room</h1>
+      <h1>Private Chat Room</h1>
 
-      <p>Welcome to the chat room</p>
+      <p>Welcome to the chat</p>
 
       <div id="messages"></div>
 
@@ -23,8 +23,8 @@
           <textarea id="text" placeholder="Message..."></textarea>
         </p>
         <p>
-          <input type="submit" value="Send" />
-          <input type="reset" value="Reset" />
+          <input type="submit" value="Send" id="send_btn" />
+          <input type="reset" value="Reset" id="send_btn" />
         </p>
       </form>
     </div>
