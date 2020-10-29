@@ -25,11 +25,13 @@ body {
   margin-top: 20px;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #eee;
   /* background: rgb(116, 197, 147); */
-  background: linear-gradient(to left, rgb(119, 0, 255), rgb(0, 238, 255));
-  color: #ffffff;
+  /* background: linear-gradient(to left, rgb(119, 0, 255), rgb(0, 238, 255)); */
+  background-color: #eee;
+  color: #333;
   font-weight: bold;
+  box-shadow: 2px 2px 2px #000000;
 }
 
 #text,
